@@ -550,3 +550,16 @@ print("----" * 10)
 # Há muitos outros
 # Para aprofundar melhor no estudo, consultar:
 # https://docs.python.org/3/library/collections.abc.html#collections-abstract-base-classes
+
+# Outros atributos:
+
+# __new__    :  Construtor chamado antes de criar a instância
+# __init__   :  Inicializador chamado após a instância ser criada
+# __init_subclass__  :  Inicializador de subclasses
+# __repr__  :  Imprime uma representação em string
+# __str__  :  Chama __repr__ por padrão
+# __setattr__  :  Executando sempre que atribuimos com obj.name
+# __getattr__  :  Executado quando acessamos obj.name
+# __delattr__  :  Executado quando apagamos como "del obj.name"
+# __getattribute__  :  Executado quando um atributo não é encontrado
+# __dir__  :  Lista todos os atributos e métodos
